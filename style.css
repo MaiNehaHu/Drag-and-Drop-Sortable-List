@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://static.vecteezy.com/system/resources/previews/001/343/598/original/golden-flower-on-black-background-gold-leaf-free-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.node {
+  min-width: 30vw;
+
+  border-radius: 1rem;
+  padding: 20px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: gold;
+}
+.dragging {
+  opacity: 0.2;
+}
